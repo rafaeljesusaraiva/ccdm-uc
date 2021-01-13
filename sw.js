@@ -12,11 +12,11 @@ self.addEventListener('fetch', function(evt) {
 function precache() {
   return caches.open(CACHE).then(function (cache) {
     return cache.addAll([
-      './index.html',
-      './media',
-      './js',
-      './fonts',
-      './css'
+      './ccdm-uc/index.html',
+      './ccdm-uc/media',
+      './ccdm-uc/js',
+      './ccdm-uc/fonts',
+      './ccdm-uc/css'
     ]);
   });
 }
