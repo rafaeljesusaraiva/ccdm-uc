@@ -1,0 +1,24 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    /* background-color: rgba(35, 31, 32, 0.92);
+    color: white; */
+    background-color: rgba(255, 255, 255, 0.701);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+}
+
+.menu > .logo{
+    height: 40px;
+    margin: 10px;
+}
+
+.menu > .logo > img{
+    height: 100%;
+}
